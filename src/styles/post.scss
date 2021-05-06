@@ -1,0 +1,47 @@
+.container {
+  max-width: 1000px;
+
+  .row {
+    margin: 10px 0;
+
+    .avatar {
+      margin: 5px 0;
+      cursor: pointer;
+    }
+
+    h6 {
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    h5 {
+      margin: 0;
+      cursor: pointer;
+    }
+  }
+
+  .card-content {
+    .icons {
+      cursor: pointer;
+    }
+
+    .flex {
+      display: flex;
+      align-items: baseline;
+      margin-bottom: 10px;
+
+      & * {
+        margin-right: 1em;
+      }
+    }
+
+    h6 {
+      font-weight: 500;
+    }
+
+    .postTime {
+      font-size: 15px;
+      color: grey;
+    }
+  }
+}

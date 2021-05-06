@@ -1,18 +1,17 @@
 import React from 'react';
 import '../styles/post.scss';
+import 'materialize-css/dist/css/materialize.min.css';
 
 const Post = (props) => {
   return (
     <div className='container'>
       <div class='card'>
         <div className='row'>
-          <div className='col s1'>
+          <div className='col s2 m1'>
             <img className='avatar btn-floating' src={props.avatar}></img>
-          </div>
-          <div className='col s1'>
             <h6>{props.name}</h6>
           </div>
-          <div className='col s1 right'>
+          <div className='col s2 m1 right'>
             <h5>...</h5>
           </div>
         </div>

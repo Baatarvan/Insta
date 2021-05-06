@@ -1,22 +1,41 @@
 .container {
   max-width: 1000px;
 
-  .row {
-    margin: 10px 0;
+  .card {
+    .row {
+      margin: 10px 0;
 
-    .avatar {
-      margin: 5px 0;
-      cursor: pointer;
-    }
+      .avatarContainer {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+      }
 
-    h6 {
-      font-weight: 500;
-      cursor: pointer;
-    }
+      img {
+        height: 40px;
+      }
 
-    h5 {
-      margin: 0;
-      cursor: pointer;
+      .col {
+        margin: 0;
+        padding: 0;
+
+        .black-text {
+          h6 {
+            font-weight: 500;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .right {
+        display: flex;
+        justify-content: center;
+
+        h4 {
+          margin: 0 !important;
+          cursor: pointer;
+        }
+      }
     }
   }
 

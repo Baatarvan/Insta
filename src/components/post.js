@@ -6,19 +6,17 @@ const Post = (props) => {
   return (
     <div className='container'>
       <div class='card'>
-        <div class='col s12 m8 offset-m2 l6 offset-l3'>
-          <div class='row valign-wrapper'>
-            <div class='col s2 m1 l1 avatarContainer'>
-              <img className='avatar' class='circle' src={props.avatar}></img>
-            </div>
-            <div class='col s8 m10 l10'>
-              <span class='black-text'>
-                <h6>{props.name}</h6>
-              </span>
-            </div>
-            <div class='col s2 m1 l1 right'>
-              <h4>...</h4>
-            </div>
+        <div class='row valign-wrapper'>
+          <div class='col s2 m1 l1 avatarContainer'>
+            <img className='avatar' class='circle' src={props.avatar}></img>
+          </div>
+          <div class='col s8 m10 l10'>
+            <span class='black-text'>
+              <h6>{props.name}</h6>
+            </span>
+          </div>
+          <div class='col s2 m1 l1 right'>
+            <h4>...</h4>
           </div>
         </div>
         <div class='card-image'>
@@ -66,7 +64,7 @@ const Post = (props) => {
         </div>
         <div className='flex'>
           <p>Liked by</p>
-          <h6>ilkhagva</h6>
+          <h6>Bulgantamir</h6>
           <p>and</p>
           <h6>others</h6>
         </div>

@@ -1,5 +1,5 @@
 .sidebar {
-  margin-top: 30px;
+  margin-top: 40px;
   .accountSwitch {
     display: flex;
     justify-content: space-between;
@@ -16,6 +16,7 @@
       float: left;
       font-weight: 500;
       font-size: 15px;
+      margin: 0;
     }
     .firstname {
       color: grey;

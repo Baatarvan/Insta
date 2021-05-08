@@ -1,0 +1,33 @@
+.sidebar {
+  margin-top: 30px;
+  .accountSwitch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    img {
+      width: 60px;
+    }
+    .account {
+      margin-left: -6.25rem;
+    }
+
+    .username {
+      float: left;
+      font-weight: 500;
+      font-size: 15px;
+    }
+    .firstname {
+      color: grey;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    p {
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 600;
+      color: rgba(var(--d69, 0, 149, 246), 1);
+    }
+  }
+}

@@ -2,19 +2,22 @@
   max-width: 1000px;
 
   .card {
-    margin: 0;
-
     .row {
-      margin: 20px 0 !important;
+      height: 70px;
+      margin: 0 !important;
 
+      display: flex;
+      align-items: center;
       .avatarContainer {
         display: flex;
         justify-content: center;
-        cursor: pointer;
+        align-items: center;
       }
 
       img {
         height: 40px;
+        cursor: pointer;
+        max-width: 1000px;
       }
 
       .col {

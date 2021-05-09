@@ -12,11 +12,11 @@ const App = () => {
     <div>
       <Navigation />
       <div className='row container'>
-        <div className='col s12 m8 l8'>
+        <div className='col s12 m12 l8'>
           <Story data={Data} />
           <Post />
         </div>
-        <div className='col m4 l4'>
+        <div className='col m4 l4 hide-on-med-and-down'>
           <Sidebar data={Data} />
         </div>
       </div>

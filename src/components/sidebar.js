@@ -5,9 +5,13 @@ import Copyright from './copyright';
 
 const sidebar = (props) => {
   return (
-    <div className='sidebar hide-on-med-and-down'>
+    <div className='sidebar'>
       <div className='accountSwitch'>
-        <img className='circle' src='https://i.pravatar.cc/150?img=15'></img>
+        <img
+          className='circle'
+          src='https://i.pravatar.cc/150?img=15'
+          alt='img'
+        ></img>
         <div className='account'>
           <h6 className='username'>baatar04</h6>
           <p className='firstname'>Baatarvan</p>

@@ -95,9 +95,15 @@
       padding-top: 13px;
       border-top: 1px solid #dbdbdb;
 
+      .firstElement {
+        display: flex;
+        align-items: center;
+      }
+
       .face {
         width: 24px;
         height: 24px;
+        margin-right: 20px;
       }
 
       input {
@@ -107,7 +113,6 @@
         margin: 0;
         height: 18px;
         font: 14px;
-        margin-left: -125px;
 
         &:focus {
           border: none;

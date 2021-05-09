@@ -12,7 +12,7 @@ const suggestions = (props) => {
         return (
           <div className='foot'>
             <div className='accountSwitch'>
-              <img className='circle' src={item.image}></img>
+              <img className='circle' src={item.image} alt='img'></img>
               <div className='account'>
                 <h6 className='username'>{item.name}</h6>
                 <p className='followed'>Followed by Matt</p>

@@ -30,29 +30,29 @@ const Post = () => {
       {posts.map((item) => {
         return (
           <div>
-            <div class='card'>
-              <div class='row'>
-                <div class='col s2 m1 l1 avatarContainer'>
+            <div className='card'>
+              <div className='row'>
+                <div className='col s2 m1 l1 avatarContainer'>
                   <img
                     className='avatar'
-                    class='circle'
+                    className='circle'
                     src={item.avatar}
                   ></img>
                 </div>
-                <div class='col s8 m10 l10'>
-                  <span class='black-text'>
+                <div className='col s8 m10 l10'>
+                  <span className='black-text'>
                     <p>{item.name}</p>
                   </span>
                 </div>
-                <div class='col s2 m1 l1 right'>
+                <div className='col s2 m1 l1 right'>
                   <Dots />
                 </div>
               </div>
-              <div class='card-image'>
+              <div className='card-image'>
                 <img className='postImg' class='activator' src={item.image} />
               </div>
             </div>
-            <div class='card-content'>
+            <div className='card-content'>
               <div className='icons'>
                 <Heart />
                 <Chat />
@@ -67,8 +67,10 @@ const Post = () => {
               </div>
               <p className='postTime'>18 hours ago</p>
               <div className='comment'>
-                <Face className='face' />
-                <input placeholder='add a comment'></input>
+                <div className='firstElement'>
+                  <Face className='face' />
+                  <input placeholder='add a comment'></input>
+                </div>
                 <h6>Post</h6>
               </div>
             </div>

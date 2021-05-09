@@ -23,6 +23,10 @@ nav {
 
     input {
       margin: 0 !important;
+      &::placeholder {
+        color: grey;
+        font-size: 14px;
+      }
     }
     label {
       left: 0px;

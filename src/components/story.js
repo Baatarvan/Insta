@@ -10,7 +10,7 @@ const Stories = (props) => {
         }
         return (
           <li className='storyContainer'>
-            <img className='circle' src={item.image}></img>
+            <img className='circle' src={item.image} alt='img'></img>
             <div className='storyName'>{item.name}</div>
           </li>
         );

@@ -17,7 +17,7 @@ const suggestions = (props) => {
                 <h6 className='username'>{item.name}</h6>
                 <p className='followed'>Followed by Matt</p>
               </div>
-              <p>Switch</p>
+              <p>Follow</p>
             </div>
           </div>
         );

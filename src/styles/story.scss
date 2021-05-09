@@ -1,6 +1,6 @@
 .storyNav {
   height: 110px;
-  margin: 15px auto;
+  margin-top: 15px;
   padding: 0;
   display: flex !important;
   justify-content: start !important;
@@ -8,6 +8,9 @@
   flex-wrap: nowrap !important;
 
   ul {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
     &:first-child {
       margin-left: 10px;
     }

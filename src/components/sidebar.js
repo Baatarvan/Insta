@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/sidebar.scss';
 import Suggestions from './suggestions';
+import Copyright from './copyright';
 
 const sidebar = (props) => {
   return (
@@ -14,6 +15,7 @@ const sidebar = (props) => {
         <p>Switch</p>
       </div>
       <Suggestions data={props.data} />
+      <Copyright />
     </div>
   );
 };

@@ -1,0 +1,24 @@
+.links {
+  margin-top: 20px;
+  color: grey;
+  font-size: 11px;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      cursor: pointer;
+      &::after {
+        content: '\2022';
+        margin: 0 0.25em;
+      }
+
+      &:last-child::after {
+        content: '';
+      }
+    }
+  }
+}

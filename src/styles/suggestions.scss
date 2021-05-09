@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 
     .text1 {
       font-weight: 500;
@@ -17,10 +18,11 @@
   }
 
   .foot {
-    padding: 15px 0;
+    padding: 6px 0;
 
     .circle {
       width: 32px;
+      margin-right: -30px;
     }
 
     .username {

@@ -57,7 +57,11 @@
     .icons {
       cursor: pointer;
       & * {
-        margin-right: 5px;
+        margin-right: 10px;
+      }
+
+      .right {
+        margin-right: -2px;
       }
     }
 

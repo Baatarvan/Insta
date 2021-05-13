@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/post.scss';
 import 'materialize-css/dist/css/materialize.min.css';
 
@@ -8,6 +8,7 @@ import { ReactComponent as Mark } from '../assets/Mark.svg';
 import { ReactComponent as Comment } from '../assets/comment.svg';
 import { ReactComponent as Dots } from '../assets/dots.svg';
 import { ReactComponent as Face } from '../assets/face.svg';
+import { ReactComponent as RedHeart } from '../assets/redHeart.svg';
 
 const posts = [
   {
@@ -25,6 +26,8 @@ const posts = [
 ];
 
 const Post = () => {
+  const [like, setLike] = useState(true);
+
   return (
     <div>
       {posts.map((item) => {
@@ -54,7 +57,15 @@ const Post = () => {
             </div>
             <div className='card-content'>
               <div className='icons'>
-                <Heart />
+                {like ? (
+                  <Heart
+                    onClick={() => {
+                      return setLike(false);
+                    }}
+                  />
+                ) : (
+                  <RedHeart />
+                )}
                 <Chat />
                 <Comment />
                 <Mark className='right' />

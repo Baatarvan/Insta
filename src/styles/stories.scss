@@ -7,11 +7,45 @@
   justify-content: center;
 
   .container {
-    background-color: red;
+    background-color: orange;
     width: 600px;
     height: calc(100vh - 40px);
-
+    color: #fff;
     border-radius: 10px;
+    padding: 20px;
+
+    .collection {
+      border: none;
+      .collection-item {
+        min-height: 44px;
+        background-color: transparent;
+        & * {
+          margin-right: 10px;
+        }
+
+        .circle {
+          width: 32px;
+          height: 32px;
+        }
+
+        .title {
+          margin-right: 10px;
+          margin-left: -15px;
+          font-weight: 500;
+        }
+
+        .time {
+          color: lightgrey;
+          font-weight: 500;
+        }
+
+        .storyDots {
+          font-size: 25px;
+          font-weight: 700;
+          color: #fff;
+        }
+      }
+    }
   }
 
   .insta-logo {
@@ -27,5 +61,24 @@
     top: 15px;
     right: 15px;
     cursor: pointer;
+  }
+}
+
+.progress-container {
+  display: flex;
+  flex-direction: row;
+
+  .progress {
+    height: 3px;
+    border-radius: 1px;
+    background-color: grey;
+    opacity: 0.4;
+    margin: 2px;
+  }
+
+  .progress-bar {
+    background-color: #fff;
+    height: 3px;
+    border-radius: 1px;
   }
 }
